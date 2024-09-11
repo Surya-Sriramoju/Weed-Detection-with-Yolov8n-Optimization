@@ -20,7 +20,7 @@ def draw_plus_sign(image, center, size, color, thickness=2):
     cv2.line(image, (center[0] - half_size, center[1]), (center[0] + half_size, center[1]), color, thickness)
     cv2.line(image, (center[0], center[1] - half_size), (center[0], center[1] + half_size), color, thickness)
 
-def box(img, detection_output, class_list, colors=None):    
+def circle(img, detection_output, class_list, colors=None):    
     # Copy image, in case that we need original image for something
     out_image = img 
 
