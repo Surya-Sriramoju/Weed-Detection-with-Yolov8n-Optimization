@@ -15,8 +15,8 @@ pip install -r requirements.txt
 ``` shell
 python train.py
 ```
-make sure to prepare your  dataset in coco data format
-link to the dataset: https://universe.roboflow.com/boris-boiarskii/weeds-rkmym/dataset/1
+- make sure to prepare your  dataset in coco data format
+- link to the dataset: https://universe.roboflow.com/boris-boiarskii/weeds-rkmym/dataset/1
 
 ### To export the model to tensorrt engine
 
